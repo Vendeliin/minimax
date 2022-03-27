@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -108,11 +108,6 @@ namespace minimax
                             break;
                         }
                     }
-                }
-                if(a == 4)
-                {
-                    
-                    writeField(ActualField);
                 }
                 a++;
                 if(a == 9)
